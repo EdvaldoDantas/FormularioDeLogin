@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+#title{
+    text-align: center;
+    font-size: 2.5em;
+}
+.cor{
+    display: inline-flex;
+    border-collapse: collapse;
+}
+.conteiner{
+    display: flex;
+    position: relative;
+}
+.cor1{
+    background-color:rgb(255, 115, 0);
+    width: 40%;
+    height: 20vh;
+    border-bottom-right-radius: 100%;
+}
+.cor2{
+    background-color: red;
+    height: 15vh;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius:100px;
+    width: 50%;
+    position:absolute;
+    left: 50px;
+   
+}
+main{
+    display: flex;
+    position: relative;
+}
+#login{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 72%;
+}
+#inpt1{
+    border-top-right-radius: 100px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.575);
+    border-bottom: none;
+    border-left: none;
+}
+#inpt2{
+    border-left:none ;
+    border-right: none;
+    box-shadow:1px 2px 5px rgba(0, 0, 0, 0.466) ;
+}
+#inpt3{
+    border-bottom-right-radius: 100px;
+    border-top: none;
+    border-left:none ;
+    box-shadow:1px 2px 5px rgba(0, 0, 0, 0.466) ;
+}
+input{
+    background-color: whitesmoke;
+    height: 30px;
+    width: 96%;
+      
+    border: 1px solid;
+    padding: 8px;
+}
+
+#ok{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(32, 176, 233);
+    border-radius:100px;
+    color: white;
+    font-weight: bold;
+    margin-top:70px ;
+    position:absolute;
+    left: 67%;
+}
+#log{
+    text-align: right;
+}
+#logar{
+    padding: 10px;
+    border: 1px solid;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: whitesmoke;
+
+}
+.corFim{
+    background-color: red;
+    height: 15vh;
+    border-top-left-radius: 100px;
+    border-top-right-radius:100px;
+    width: 50%;
+    position:absolute;
+    position: absolute;
+    left:40%;
+    bottom:0;
+}
+.corFim2{
+    background-color:rgb(255, 115, 0);
+    width: 40%;
+    height: 25vh;
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+    border-top-left-radius: 100%;
+}
+@media (max-height: 400px ){
+    footer{
+        display: none;
+    }
+}
