@@ -115,8 +115,6 @@ input{
     bottom: 0;
     border-top-left-radius: 100%;
 }
-@media (max-height: 400px ){
-    footer{
-        display: none;
-    }
+footer{
+    display: block;
 }
