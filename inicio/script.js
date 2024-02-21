@@ -5,18 +5,7 @@ window.addEventListener('resize',()=>{
     let corFim1 = document.getElementById('corFim1')
     let corFim2 = document.getElementById('corFim02')
     
-    if(window.innerHeight < 350) {
-            cor1.style = `width: 25%;
-                          height: 18vh;`
-            cor2.style = `width: 30%;
-                         height: 15vh;`
-            
-            corFim1.style = `width: 30%;
-                            height: 10vh;`
-            corFim2.style = `width: 30%;
-                            height: 15vh;` 
-    }
-    else if(window.innerHeight < 250){
+    if(window.innerHeight < 370){
         foot.style.display = 'none'
     }
     else{
@@ -31,8 +20,9 @@ window.addEventListener('resize',()=>{
                          height: 14vh;`
         corFim2.style = `width: 39%;
                          height: 19vh;` 
+        document.body.classList.remove('no-scroll')
     }
 
     windowHight = window.innerHeight
 })
-let windowHight = window.innerHeight
+let windowHight = window.innerHeight 

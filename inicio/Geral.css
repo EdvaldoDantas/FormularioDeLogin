@@ -4,10 +4,16 @@
     margin: 0%;
     padding: 0%;
 }
+body, html{
+    min-height:100vh;
+}
 body{
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
+}
+.no-scroll{
+    overflow: hidden;
 }
 #title{
     text-align: center;
