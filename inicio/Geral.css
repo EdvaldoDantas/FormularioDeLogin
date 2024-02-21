@@ -100,7 +100,7 @@ input{
     height: 15vh;
     border-top-left-radius: 100px;
     border-top-right-radius:100px;
-    width: 50%;
+    width: 40%;
     position:absolute;
     position: absolute;
     left:40%;
@@ -108,8 +108,8 @@ input{
 }
 .corFim2{
     background-color:rgb(255, 115, 0);
-    width: 40%;
-    height: 25vh;
+    width: 30%;
+    height: 20vh;
     position: absolute;
     right: 0%;
     bottom: 0;
