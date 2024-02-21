@@ -16,7 +16,7 @@ window.addEventListener('resize',()=>{
             corFim2.style = `width: 30%;
                             height: 15vh;` 
     }
-    else if(window.innerHeight < 200){
+    else if(window.innerHeight < 250){
         foot.style.display = 'none'
     }
     else{
