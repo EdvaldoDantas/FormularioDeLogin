@@ -6,6 +6,7 @@ window.addEventListener('resize',()=>{
     let corFim2 = document.getElementById('corFim02')
     
     if(window.innerHeight < 370){
+        document.body.classList.add('no-scroll')
         foot.style.display = 'none'
     }
     else{
