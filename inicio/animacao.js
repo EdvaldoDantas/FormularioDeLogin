@@ -1,3 +1,3 @@
 setTimeout(()=>{
-    window.location.href = 'Index.html'
+    window.location.href = 'Login.html'
 },11000)
