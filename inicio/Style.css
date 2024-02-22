@@ -91,7 +91,7 @@ input{
     padding: 8px;
 }
 
-.ok{
+#ok{
     width: 60px;
     height: 60px;
     background-color: rgb(32, 176, 233);
