@@ -34,7 +34,7 @@ img{
 }
 .loading{
     opacity: 0;
-    animation: loading 9s infinite;
+    animation: loading 2s infinite;
     animation-delay: 3s;
 }
 
