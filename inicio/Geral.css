@@ -14,12 +14,7 @@ body{
     position: relative;
     background-color: rgba(216, 212, 212, 0.486);
 }
-header img{
-    height: 80px;
-    border-radius: 50%;
-    position: absolute;
-    left: 83%;
-}
+
 #p{
   position: absolute;
   top: 110%;   
