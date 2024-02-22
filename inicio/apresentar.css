@@ -23,19 +23,50 @@ section{
 img{
     border-radius:50%;
 }
-.up{
-    display: none;
-}
-.mostrar{
+.app{
+    opacity: 0;
+    animation-duration: 2s;
     animation: aparecer 1s ease-in;
 }
-@keyframes aparecer {
-    from{
+.loading{
+    font-size: 40px;
+    text-align: center;
+}
+.loading{
+    opacity: 0;
+    animation: loading 9s infinite;
+    animation-delay: 3s;
+}
+
+.loading::after{
+    content: "....";
+}
+@keyframes loading {
+    0%{
+        opacity: 0;
+        color: blue;
+    }
+    20%{
+        opacity: 1;
+        color: blue;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
         opacity: 0;
        
     }
+}
+section{
+    opacity: 0;
+    animation: carregar 10s;
+}
+@keyframes carregar{
+    from{
+        opacity: 0;
+    }
     to{
         opacity: 1;
-       
     }
 }

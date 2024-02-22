@@ -1,5 +1,7 @@
 let x =  document.getElementById('up')
 
-function mostrarElemento(){
-    let x = document.querySelectorAll('up')
+setTimeout(abrirLink(),14000)
+
+function abrirLink(){
+    window.location.href = 'Index.html'
 }
