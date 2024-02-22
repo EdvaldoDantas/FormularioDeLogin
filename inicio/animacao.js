@@ -1,5 +1,3 @@
-setTimeout(abrirLink(),14000)
-
-function abrirLink(){
+setTimeout(()=>{
     window.location.href = 'Index.html'
-}
+},11000)
