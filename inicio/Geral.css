@@ -6,7 +6,7 @@
 }
 body, html{
     min-height:100vh;
-    width: 100vw;
+    min-width: 100vw;
 }
 body{
     height: 100vh;
@@ -14,11 +14,17 @@ body{
     position: relative;
     background-color: rgba(216, 212, 212, 0.486);
 }
-
+header img{
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    left: 83%;
+}
 #p{
   position: absolute;
+  color: rgb(0, 132, 255);
   top: 110%;   
-  left: 10%;
+  left: 20%;
 }
 #title{
     text-align: center;
@@ -105,6 +111,8 @@ input{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     background-color: whitesmoke;
+    border-color: rgb(0, 132, 255);
+    color: rgb(0, 132, 255);
 
 }
 .corFim{
@@ -130,4 +138,12 @@ input{
 }
 footer{
     display: block;
+}
+@media (max-width :460px){
+    header img{
+        left: 73%;
+    }
+    #p{
+        left: 6%;
+    }
 }
