@@ -1,5 +1,41 @@
 @charset "UTF-8";
 
 *{
-    
+    margin: 0;
+    padding:0 ;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    display: flex;
+    align-items: center;
+    background-color: rgba(216, 212, 212, 0.486);
+}
+section{
+    margin: auto;
+}
+img{
+    border-radius:50%;
+}
+.up{
+    display: none;
+}
+.mostrar{
+    animation: aparecer 1s ease-in;
+}
+@keyframes aparecer {
+    from{
+        opacity: 0;
+       
+    }
+    to{
+        opacity: 1;
+       
+    }
 }
