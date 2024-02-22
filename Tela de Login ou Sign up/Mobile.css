@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+.forms{
+    height: 50%; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#login{
+    background-color: blue;
+}
+#login p a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+main{
+    position: relative;
+}
+#login p{
+    align-self: flex-start;
+    font-size: 3vw;
+    margin-left: 15px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+.personalData{
+    padding: 8px;
+    width: 90%;
+    border: 1px solid black;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.personalData:focus{
+    outline: transparent;
+}
+#nameLogin, #passLogin{
+    background-color: blue;
+}
+
+#emailSignup{
+    border-bottom: 1px solid ;
+}
+#subir, #descer{
+    display: inline-block;
+    border: 1px solid;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 80px;
+    height: 20vw;
+    position: absolute;
+    text-align: center;
+    bottom: 230px;
+    right: 0.2%;      
+}
+#descer{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius:0 ;
+    background-color: blue;
+}
+#subir{
+    right: 81px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius:0 ;
+    background-color: white;
+}
+@media (max-width: 340px){
+    #login p{
+        margin-top: 3px;
+        margin-bottom:60px ;
+        font-size: 4vw;
+    }
+
+}
+h1,label{
+  align-self: flex-start;
+}
+h1{
+    font-size: 8vw;
+    margin-top: 4.5vh;
+    margin-left: 10px;
+}
+label{
+    margin-left: 11px;
+    margin-top: 5px;
+    font-size:16px ;
+}
+#signup h1{
+    color: blue;
+}
+.up{
+    opacity:1;
+
+}
+.up.esconder{
+    opacity:0 ;
+    transition: opacity 1s ease-in-out;
+    animation: desaparecer 1s ease-in-out;
+}
+@keyframes desaparecer {
+    0%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}
