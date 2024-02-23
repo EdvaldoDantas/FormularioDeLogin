@@ -5,7 +5,7 @@ window.addEventListener('resize',()=>{
     let corFim1 = document.getElementById('corFim1')
     let corFim2 = document.getElementById('corFim02')
     
-    if(window.innerHeight < 370){
+    if(window.innerHeight < 420){
         document.body.classList.add('no-scroll')
         foot.style.display = 'none'
     }
@@ -27,3 +27,6 @@ window.addEventListener('resize',()=>{
     windowHight = window.innerHeight
 })
 let windowHight = window.innerHeight 
+
+let btn = document.getElementById('logar')
+

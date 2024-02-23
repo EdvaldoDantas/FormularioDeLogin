@@ -20,12 +20,6 @@ header img{
     position: absolute;
     left: 83%;
 }
-#p{
-  position: absolute;
-  color: rgb(0, 132, 255);
-  top: 110%;   
-  left: 20%;
-}
 #title{
     text-align: center;
     font-size: 2.5em;
@@ -105,6 +99,11 @@ input{
 #log{
     text-align: right;
 }
+#logar a{
+    color:rgb(0, 132, 255);
+    text-decoration: none;
+}
+
 #logar{
     padding: 10px;
     border: 1px solid;
@@ -112,8 +111,6 @@ input{
     border-bottom-left-radius: 15px;
     background-color: whitesmoke;
     border-color: rgb(0, 132, 255);
-    color: rgb(0, 132, 255);
-
 }
 .corFim{
     background-color: rgb(32, 176, 233);
