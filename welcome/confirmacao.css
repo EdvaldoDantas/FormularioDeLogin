@@ -8,6 +8,10 @@ body, html{
     height: 100vh;
     width: 100vw;
 }
+body{
+    position: relative;
+    background-color: rgba(216, 212, 212, 0.486);
+}
 header img{
     height: 70px;
     border-radius: 50%;
@@ -56,4 +60,9 @@ button{
     border-radius: 5px;
     color: white;
     margin: 5px;
+}
+footer{
+    position: absolute;
+    bottom: 4%;
+    left: 38%;
 }
