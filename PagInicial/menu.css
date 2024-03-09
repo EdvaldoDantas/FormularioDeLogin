@@ -1,0 +1,25 @@
+header > menu > .nav-up > ul > div{
+    background-color: whitesmoke;
+    position: absolute;
+    right: 0;
+    top: 65px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+header > menu > .nav-up > ul > div > menu > ul > li{
+    list-style: none;
+    padding: 10px;
+    margin-top: 5px;
+    cursor: default;
+}
+header > menu > .nav-up > ul > div > menu > ul > li:hover{
+    border: 1px solid;
+    border-left: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: 0.5s;
+}
+#menu{
+    cursor: pointer;
+}

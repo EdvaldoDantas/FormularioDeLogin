@@ -1,0 +1,39 @@
+.publicar{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+#pub{
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 10px;
+    margin-right:10px ;
+}
+.btn{
+    padding: 5px;
+    border-radius: 50px;
+}
+.outros{
+  margin-top: 10px;
+  display: flex;
+  border-top: 2px solid gray;    
+}
+.pr{
+    margin-top: 10px;
+    margin-left: 6px;
+}
+.nome{
+    margin-top: 14px;
+    margin-left: 6px;
+}
+#pt{
+    margin: 10px;
+    margin-left: 35%;
+}
+#x{
+    margin-top: 13px;
+    
+}
+.conteudo{
+   padding:10px;
+}
