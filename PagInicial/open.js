@@ -12,3 +12,12 @@ menu.addEventListener('click',()=>{
         fechado = true
     }
 })
+document.addEventListener('click',(event)=>{
+   const cli = menu.contains(event.target)
+   if(!cli){
+      menu_escondido.style.display = 'none'
+   }
+})
+document.addEventListener('scroll',()=>{
+    menu_escondido.style.display = 'none'
+})
